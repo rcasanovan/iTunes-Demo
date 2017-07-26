@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ITISearchViewTableViewCell" id="KGk-i7-Jjw" customClass="ITISearchViewTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="79.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="18q-vT-fN9">
+                        <rect key="frame" x="8" y="9" width="60" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="KXW-dk-uJo"/>
+                            <constraint firstAttribute="height" constant="60" id="Vvf-b5-wDm"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wall of Glass" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PMy-ZC-lGp">
+                        <rect key="frame" x="76" y="9" width="236" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="25m-OB-bBH"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Liam Gallagher" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GRo-3w-eg9">
+                        <rect key="frame" x="76" y="30" width="236" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="17" id="6WA-CC-rRd"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wall of Glass - Single (2017)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dQe-h5-Hy5">
+                        <rect key="frame" x="76" y="52" width="236" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="17" id="pre-lO-qIF"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="GRo-3w-eg9" secondAttribute="trailing" constant="8" id="1Sb-x8-UkF"/>
+                    <constraint firstItem="18q-vT-fN9" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="A0w-5e-c2i"/>
+                    <constraint firstItem="GRo-3w-eg9" firstAttribute="top" secondItem="PMy-ZC-lGp" secondAttribute="bottom" id="JCj-en-yYp"/>
+                    <constraint firstItem="dQe-h5-Hy5" firstAttribute="leading" secondItem="18q-vT-fN9" secondAttribute="trailing" constant="8" id="Kti-0I-RCZ"/>
+                    <constraint firstItem="PMy-ZC-lGp" firstAttribute="leading" secondItem="18q-vT-fN9" secondAttribute="trailing" constant="8" id="gE0-jt-3D3"/>
+                    <constraint firstItem="PMy-ZC-lGp" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="9" id="iCd-1Q-LS8"/>
+                    <constraint firstItem="dQe-h5-Hy5" firstAttribute="top" secondItem="GRo-3w-eg9" secondAttribute="bottom" constant="5" id="lw3-GS-CDF"/>
+                    <constraint firstAttribute="trailing" secondItem="PMy-ZC-lGp" secondAttribute="trailing" constant="8" id="mv7-SX-Aln"/>
+                    <constraint firstAttribute="trailing" secondItem="dQe-h5-Hy5" secondAttribute="trailing" constant="8" id="o6E-0l-h0U"/>
+                    <constraint firstItem="GRo-3w-eg9" firstAttribute="leading" secondItem="18q-vT-fN9" secondAttribute="trailing" constant="8" id="pZk-d8-6oA"/>
+                    <constraint firstItem="18q-vT-fN9" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="9" id="z5i-Bf-mcZ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="albumNameLabel" destination="dQe-h5-Hy5" id="5rg-kY-R06"/>
+                <outlet property="artistImageView" destination="18q-vT-fN9" id="yOJ-Ov-MIG"/>
+                <outlet property="artistNameLabel" destination="GRo-3w-eg9" id="4el-7L-rjz"/>
+                <outlet property="trackNameLabel" destination="PMy-ZC-lGp" id="85e-Wx-gnX"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--General System Notification View Controller-->
+        <scene sceneID="v7r-gH-nR4">
+            <objects>
+                <viewController storyboardIdentifier="ITIGeneralSystemNotificationViewController" id="uyR-pv-Adu" customClass="ITIGeneralSystemNotificationViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JaQ-qU-UAl"/>
+                        <viewControllerLayoutGuide type="bottom" id="ITx-NS-Fbx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dJT-gh-RHu" customClass="ITIGeneralSystemNotificationView">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n0Y-SC-55q">
+                                <rect key="frame" x="24" y="68" width="276" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="IzP-EP-h81"/>
+                                    <constraint firstAttribute="width" constant="276" id="xWj-d1-mav"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dpn-bN-cnJ">
+                                <rect key="frame" x="24" y="193" width="327" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="fnb-NF-IWL"/>
+                                </constraints>
+                                <attributedString key="attributedText"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="n0Y-SC-55q" firstAttribute="leading" secondItem="dJT-gh-RHu" secondAttribute="leading" constant="24" id="GMr-Eh-dN4"/>
+                            <constraint firstItem="dpn-bN-cnJ" firstAttribute="top" secondItem="n0Y-SC-55q" secondAttribute="bottom" constant="25" id="SCY-71-zYb"/>
+                            <constraint firstItem="dpn-bN-cnJ" firstAttribute="leading" secondItem="dJT-gh-RHu" secondAttribute="leading" constant="24" id="V9p-bm-yPg"/>
+                            <constraint firstAttribute="trailing" secondItem="dpn-bN-cnJ" secondAttribute="trailing" constant="24" id="Zvt-Mu-hlN"/>
+                            <constraint firstItem="n0Y-SC-55q" firstAttribute="top" secondItem="JaQ-qU-UAl" secondAttribute="bottom" constant="68" id="pYC-IY-dSp"/>
+                        </constraints>
+                        <connections>
+                            <outlet property="systemStatusSubtitleLabel" destination="dpn-bN-cnJ" id="q47-f2-DdO"/>
+                            <outlet property="systemStatusTitleLabel" destination="n0Y-SC-55q" id="lD7-55-W3e"/>
+                        </connections>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ovr-e7-JHY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="13.6" y="196.55172413793105"/>
+        </scene>
+    </scenes>
+</document>
