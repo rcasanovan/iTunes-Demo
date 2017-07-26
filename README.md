@@ -1,12 +1,12 @@
 # iTunes-code-test
 This is an iOS sample to search artists / songs in iTunes. It's using the iTunes official API
 
-![alt tag](https://github.com/rcasanovan/iTunes-Demo/tree/master/readme%20files/Simulator%20Screen%20Shot%202%20Jul%202017%2C%2013.37.12.png?raw=true)
-![alt tag](https://github.com/rcasanovan/iTunes-Demo/tree/master/readme%20files/Simulator%20Screen%20Shot%202%20Jul%202017%2C%2013.37.22.png?raw=true)
-![alt tag](https://github.com/rcasanovan/iTunes-Demo/tree/master/readme%20files/Simulator%20Screen%20Shot%202%20Jul%202017%2C%2013.37.25.png?raw=true)
-![alt tag](https://github.com/rcasanovan/iTunes-Demo/tree/master/readme%20files/Simulator%20Screen%20Shot%202%20Jul%202017%2C%2013.37.26.png?raw=true)
-![alt tag](https://github.com/rcasanovan/iTunes-Demo/tree/master/readme%20files/Simulator%20Screen%20Shot%202%20Jul%202017%2C%2013.37.43.png?raw=true)
-![alt tag](https://github.com/rcasanovan/iTunes-Demo/tree/master/readme%20files/Simulator%20Screen%20Shot%202%20Jul%202017%2C%2013.38.04.png?raw=true)
+![alt tag](https://github.com/rcasanovan/iTunes-Demo/blob/master/readme%20files/Simulator%20Screen%20Shot%202%20Jul%202017%2C%2013.37.12.png?raw=true)
+![alt tag](https://github.com/rcasanovan/iTunes-Demo/blob/master/readme%20files/Simulator%20Screen%20Shot%202%20Jul%202017%2C%2013.37.22.png?raw=true)
+![alt tag](https://github.com/rcasanovan/iTunes-Demo/blob/master/readme%20files/Simulator%20Screen%20Shot%202%20Jul%202017%2C%2013.37.25.png?raw=true)
+![alt tag](https://github.com/rcasanovan/iTunes-Demo/blob/master/readme%20files/Simulator%20Screen%20Shot%202%20Jul%202017%2C%2013.37.26.png?raw=true)
+![alt tag](https://github.com/rcasanovan/iTunes-Demo/blob/master/readme%20files/Simulator%20Screen%20Shot%202%20Jul%202017%2C%2013.37.43.png?raw=true)
+![alt tag](https://github.com/rcasanovan/iTunes-Demo/blob/master/readme%20files/Simulator%20Screen%20Shot%202%20Jul%202017%2C%2013.38.04.png?raw=true)
 
 ## Design pattern
 * Model-View-View-Model (MVVM)
